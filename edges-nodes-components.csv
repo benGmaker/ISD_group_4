@@ -1,0 +1,567 @@
+source;target;kind;labels;motivation
+PSL;LIOP_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LIOP_A;LIMC-I_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LIMC-I_A;LIMC-E_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LIMC-I_A;LINJ_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LINJ_A;LPRM_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LPRM_A;LBS_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+cooling-laser-input;LINJ_A;functional-dependency;cooling;these components are connected for cooling
+cooling-laser-input;LPRM_A;functional-dependency;cooling;these components are connected for cooling
+
+LINJ_A;LOOP_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+
+LOOP_A;LOMC_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LOOP_A;LSQI_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LSQI_A;LSEM_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LSEM_A;LBS_A;functional-dependency;laser-beam;a laser beam is passed between these nodes
+cooling-laser-measure;LSQI_A;functional-dependency;cooling;these components are connected for cooling
+cooling-laser-measure;LSEM_A;functional-dependency;cooling;these components are connected for cooling
+
+LBS_A;LZM1_AB;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LZM1_AB;LZM2_AB;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LZM2_AB;LITM_AB;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LITM_AB;LETM_AB;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LETM_AB;LCal1_AB;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LCal1_AB;LCal2_AB;functional-dependency;laser-beam;a laser beam is passed between these nodes
+cooling-LITM_AB-AS;LITM_AB;functional-dependency;cooling;these components are connected for cooling
+cooling-LITM_AB-TS;LITM_AB;functional-dependency;cooling;these components are connected for cooling
+cooling-LETM_AB-AS;LITM_AB;functional-dependency;cooling;these components are connected for cooling
+cooling-LETM_AB-TS;LITM_AB;functional-dependency;cooling;these components are connected for cooling
+
+LBS_A;LZM1_AC;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LZM1_AC;LZM2_AC;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LZM2_AC;LITM_AC;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LITM_AC;LETM_AC;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LETM_AC;LCal1_AC;functional-dependency;laser-beam;a laser beam is passed between these nodes
+LCal1_AC;LCal2_AC;functional-dependency;laser-beam;a laser beam is passed between these nodes
+cooling-LITM_AC-AS;LITM_AC;functional-dependency;cooling;these components are connected for cooling
+cooling-LITM_AC-TS;LITM_AC;functional-dependency;cooling;these components are connected for cooling
+cooling-LETM_AC-AS;LITM_AC;functional-dependency;cooling;these components are connected for cooling
+cooling-LETM_AC-TS;LITM_AC;functional-dependency;cooling;these components are connected for cooling
+
+LSQI_A;beam-conditioning;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+squeezed-light-source;beam-conditioning;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+beam-conditioning;LFC1-IM1_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+LFC1-IM1_A;LFC1-IM2_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+LFC1-IM2_A;LFC1-EM_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+LFC1-EM_A;LSQ-EM1_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+beam-conditioning;LFC2-IM1_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+LFC2-IM1_A;LFC2-IM2_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+LFC2-IM2_A;LFC2-EM_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+LFC2-EM_A;LSQ-EM2_A;functional-dependency;squeezed-light;a sqeezed light beam is passed between these nodes
+
+LIOP_A;filter-0;functional-dependency;part-of;part of the node	
+LIOP_A;standard-filter;functional-dependency;part-of;part of the node					
+LIOP_A;blade-springs;functional-dependency;part-of;part of the node	
+LIOP_A;suspension-wires;functional-dependency;part-of;part of the node	
+LIOP_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LIMC-I_A;filter-0;functional-dependency;part-of;part of the node	
+LIMC-I_A;standard-filter;functional-dependency;part-of;part of the node					
+LIMC-I_A;blade-springs;functional-dependency;part-of;part of the node	
+LIMC-I_A;suspension-wires;functional-dependency;part-of;part of the node
+LIMC-I_A;inter-platform-optical-system;functional-dependency;part-of;part of the node										
+LIMC-I_A;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+
+LINJ_A;filter-0;functional-dependency;part-of;part of the node	
+LINJ_A;standard-filter;functional-dependency;part-of;part of the node					
+LINJ_A;blade-springs;functional-dependency;part-of;part of the node	
+LINJ_A;suspension-wires;functional-dependency;part-of;part of the node
+LINJ_A;inter-platform-optical-system;functional-dependency;part-of;part of the node						
+LINJ_A;rough-pumping-system;functional-dependency;part-of;part of the node	
+LINJ_A;intermediate-pumping-system;functional-dependency;part-of;part of the node	
+LINJ_A;continuous-pumping-system;functional-dependency;part-of;part of the node		
+LINJ_A;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+
+LPRM_A;filter-0;functional-dependency;part-of;part of the node	
+LPRM_A;standard-filter;functional-dependency;part-of;part of the node					
+LPRM_A;blade-springs;functional-dependency;part-of;part of the node	
+LPRM_A;suspension-wires;functional-dependency;part-of;part of the node									
+LPRM_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LPRM_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LPRM_A;optical-substrate;functional-dependency;part-of;part of the node	
+LPRM_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			                 
+LPRM_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node
+LPRM_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LBS_A;filter-0;functional-dependency;part-of;part of the node	
+LBS_A;standard-filter;functional-dependency;part-of;part of the node						
+LBS_A;suspension-wires;functional-dependency;part-of;part of the node									
+LBS_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LBS_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LBS_A;optical-substrate;functional-dependency;part-of;part of the node
+LBS_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LSEM_A;filter-0;functional-dependency;part-of;part of the node	
+LSEM_A;standard-filter;functional-dependency;part-of;part of the node					
+LSEM_A;blade-springs;functional-dependency;part-of;part of the node	
+LSEM_A;suspension-wires;functional-dependency;part-of;part of the node									
+LSEM_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LSEM_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LSEM_A;optical-substrate;functional-dependency;part-of;part of the node
+LSEM_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LSQI_A;filter-0;functional-dependency;part-of;part of the node	
+LSQI_A;standard-filter;functional-dependency;part-of;part of the node					
+LSQI_A;blade-springs;functional-dependency;part-of;part of the node	
+LSQI_A;suspension-wires;functional-dependency;part-of;part of the node		
+LSQI_A;TM-heads-anchors;functional-dependency;part-of;part of the node	
+LSQI_A;TM-fibers;functional-dependency;part-of;part of the node	
+LSQI_A;TM-interfaces-ears;functional-dependency;part-of;part of the node				
+LSQI_A;low-noise-position;functional-dependency;part-of;part of the node	
+LSQI_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LSQI_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LSQI_A;optical-substrate;functional-dependency;part-of;part of the node
+LSQI_A;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+LOOP_A;filter-0;functional-dependency;part-of;part of the node	
+LOOP_A;standard-filter;functional-dependency;part-of;part of the node					
+LOOP_A;blade-springs;functional-dependency;part-of;part of the node	
+LOOP_A;suspension-wires;functional-dependency;part-of;part of the node									
+LOOP_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LOOP_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LOOP_A;optical-substrate;functional-dependency;part-of;part of the node	
+LOOP_A;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+LOMC_A;filter-0;functional-dependency;part-of;part of the node	
+LOMC_A;standard-filter;functional-dependency;part-of;part of the node					
+LOMC_A;blade-springs;functional-dependency;part-of;part of the node	
+LOMC_A;suspension-wires;functional-dependency;part-of;part of the node									
+LOMC_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LOMC_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LOMC_A;optical-substrate;functional-dependency;part-of;part of the node																		
+LOMC_A;rough-pumping-system;functional-dependency;part-of;part of the node	
+LOMC_A;intermediate-pumping-system;functional-dependency;part-of;part of the node	
+LOMC_A;continuous-pumping-system;functional-dependency;part-of;part of the node		
+LOMC_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LIMC-E_A;filter-0;functional-dependency;part-of;part of the node	
+
+LZM1_AB;filter-0;functional-dependency;part-of;part of the node	
+LZM1_AB;standard-filter;functional-dependency;part-of;part of the node						
+LZM1_AB;suspension-wires;functional-dependency;part-of;part of the node					
+LZM1_AB;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LZM1_AB;inverted-pendulum;functional-dependency;part-of;part of the node			
+LZM1_AB;linear-accelerometers;functional-dependency;part-of;part of the node	
+LZM1_AB;inertial-rotation;functional-dependency;part-of;part of the node		
+LZM1_AB;optical-substrate;functional-dependency;part-of;part of the node	
+LZM1_AB;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LZM1_AB;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node
+LZM1_AB;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+
+LZM2_AB;standard-filter;functional-dependency;part-of;part of the node						
+LZM2_AB;suspension-wires;functional-dependency;part-of;part of the node					
+LZM2_AB;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LZM2_AB;inverted-pendulum;functional-dependency;part-of;part of the node			
+LZM2_AB;linear-accelerometers;functional-dependency;part-of;part of the node	
+LZM2_AB;inertial-rotation;functional-dependency;part-of;part of the node		
+LZM2_AB;optical-substrate;functional-dependency;part-of;part of the node	
+LZM2_AB;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LZM2_AB;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node
+LZM2_AB;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LITM_AB;filter-0;functional-dependency;part-of;part of the node	
+LITM_AB;standard-filter;functional-dependency;part-of;part of the node		
+LITM_AB;inductive-s-a;functional-dependency;part-of;part of the node		
+LITM_AB;low-noise-position-s-a;functional-dependency;part-of;part of the node		
+LITM_AB;suspension-wires;functional-dependency;part-of;part of the node		
+LITM_AB;TM-heads-anchors;functional-dependency;part-of;part of the node	
+LITM_AB;TM-fibers;functional-dependency;part-of;part of the node	
+LITM_AB;TM-interfaces-ears;functional-dependency;part-of;part of the node	
+LITM_AB;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LITM_AB;inverted-pendulum;functional-dependency;part-of;part of the node	
+LITM_AB;inductive;functional-dependency;part-of;part of the node	
+LITM_AB;low-noise-position;functional-dependency;part-of;part of the node	
+LITM_AB;linear-accelerometers;functional-dependency;part-of;part of the node	
+LITM_AB;inertial-rotation;functional-dependency;part-of;part of the node	
+LITM_AB;piezo-per-base-ring;functional-dependency;part-of;part of the node	
+LITM_AB;optical-substrate;functional-dependency;part-of;part of the node	
+LITM_AB;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node		
+LITM_AB;soft-heat-links;functional-dependency;part-of;part of the node	
+LITM_AB;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LITM_AB;payload-on-board-soft-thermal-links;functional-dependency;part-of;part of the node	
+LITM_AB;cryocompatible-inductive-actuators;functional-dependency;part-of;part of the node	
+LITM_AB;scattered-light-ITM-payload-baffles;functional-dependency;part-of;part of the node	
+LITM_AB;penultimate-mass-cryogenic-suspension;functional-dependency;part-of;part of the node	
+LITM_AB;cryocompatible-DC-tilt-motors;functional-dependency;part-of;part of the node				
+LITM_AB;cryogenic-payload-safety-structure;functional-dependency;part-of;part of the node					
+LITM_AB;rough-pumping-system;functional-dependency;part-of;part of the node	
+LITM_AB;intermediate-pumping-system;functional-dependency;part-of;part of the node	
+LITM_AB;continuous-pumping-system;functional-dependency;part-of;part of the node	
+LITM_AB;cryostat-vessel;functional-dependency;part-of;part of the node	
+LITM_AB;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+LITM_AB;cryosupply;functional-dependency;part-of;part of the node	
+LITM_AB;thermal-shields;functional-dependency;part-of;part of the node		
+LITM_AB;dust-monitoring-system;functional-dependency;part-of;part of the node	
+LITM_AB;temperature-monitoring-system;functional-dependency;part-of;part of the node	
+LITM_AB;vibration-monitoring-system;functional-dependency;part-of;part of the node	
+
+LZM1_AC;filter-0;functional-dependency;part-of;part of the node	
+LZM1_AC;standard-filter;functional-dependency;part-of;part of the node						
+LZM1_AC;suspension-wires;functional-dependency;part-of;part of the node					
+LZM1_AC;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LZM1_AC;inverted-pendulum;functional-dependency;part-of;part of the node			
+LZM1_AC;linear-accelerometers;functional-dependency;part-of;part of the node	
+LZM1_AC;inertial-rotation;functional-dependency;part-of;part of the node		
+LZM1_AC;optical-substrate;functional-dependency;part-of;part of the node	
+LZM1_AC;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LZM1_AC;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LZM1_AC;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LZM2_AC;filter-0;functional-dependency;part-of;part of the node	
+LZM2_AC;standard-filter;functional-dependency;part-of;part of the node						
+LZM2_AC;suspension-wires;functional-dependency;part-of;part of the node					
+LZM2_AC;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LZM2_AC;inverted-pendulum;functional-dependency;part-of;part of the node			
+LZM2_AC;linear-accelerometers;functional-dependency;part-of;part of the node	
+LZM2_AC;inertial-rotation;functional-dependency;part-of;part of the node		
+LZM2_AC;optical-substrate;functional-dependency;part-of;part of the node	
+LZM2_AC;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LZM2_AC;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node
+LZM2_AC;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LITM_AC;filter-0;functional-dependency;part-of;part of the node	
+LITM_AC;standard-filter;functional-dependency;part-of;part of the node		
+LITM_AC;inductive-s-a;functional-dependency;part-of;part of the node		
+LITM_AC;low-noise-position-s-a;functional-dependency;part-of;part of the node		
+LITM_AC;suspension-wires;functional-dependency;part-of;part of the node		
+LITM_AC;TM-heads-anchors;functional-dependency;part-of;part of the node	
+LITM_AC;TM-fibers;functional-dependency;part-of;part of the node	
+LITM_AC;TM-interfaces-ears;functional-dependency;part-of;part of the node	
+LITM_AC;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LITM_AC;inverted-pendulum;functional-dependency;part-of;part of the node	
+LITM_AC;inductive;functional-dependency;part-of;part of the node	
+LITM_AC;low-noise-position;functional-dependency;part-of;part of the node	
+LITM_AC;linear-accelerometers;functional-dependency;part-of;part of the node	
+LITM_AC;inertial-rotation;functional-dependency;part-of;part of the node	
+LITM_AC;piezo-per-base-ring;functional-dependency;part-of;part of the node	
+LITM_AC;optical-substrate;functional-dependency;part-of;part of the node	
+LITM_AC;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node		
+LITM_AC;soft-heat-links;functional-dependency;part-of;part of the node	
+LITM_AC;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LITM_AC;payload-on-board-soft-thermal-links;functional-dependency;part-of;part of the node	
+LITM_AC;cryocompatible-inductive-actuators;functional-dependency;part-of;part of the node	
+LITM_AC;scattered-light-ITM-payload-baffles;functional-dependency;part-of;part of the node	
+LITM_AC;penultimate-mass-cryogenic-suspension;functional-dependency;part-of;part of the node	
+LITM_AC;cryocompatible-DC-tilt-motors;functional-dependency;part-of;part of the node				
+LITM_AC;cryogenic-payload-safety-structure;functional-dependency;part-of;part of the node					
+LITM_AC;rough-pumping-system;functional-dependency;part-of;part of the node	
+LITM_AC;intermediate-pumping-system;functional-dependency;part-of;part of the node	
+LITM_AC;continuous-pumping-system;functional-dependency;part-of;part of the node	
+LITM_AC;cryostat-vessel;functional-dependency;part-of;part of the node	
+LITM_AC;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+LITM_AC;cryosupply;functional-dependency;part-of;part of the node	
+LITM_AC;thermal-shields;functional-dependency;part-of;part of the node		
+LITM_AC;dust-monitoring-system;functional-dependency;part-of;part of the node	
+LITM_AC;temperature-monitoring-system;functional-dependency;part-of;part of the node	
+LITM_AC;vibration-monitoring-system;functional-dependency;part-of;part of the node	
+
+beam-conditioning;filter-0;functional-dependency;part-of;part of the node	
+beam-conditioning;standard-filter;functional-dependency;part-of;part of the node					
+beam-conditioning;blade-springs;functional-dependency;part-of;part of the node	
+beam-conditioning;suspension-wires;functional-dependency;part-of;part of the node									
+beam-conditioning;linear-accelerometers;functional-dependency;part-of;part of the node	
+beam-conditioning;inertial-rotation;functional-dependency;part-of;part of the node		
+beam-conditioning;optical-substrate;functional-dependency;part-of;part of the node
+beam-conditioning;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+squeezed-light-source;filter-0;functional-dependency;part-of;part of the node	
+squeezed-light-source;standard-filter;functional-dependency;part-of;part of the node					
+squeezed-light-source;blade-springs;functional-dependency;part-of;part of the node	
+squeezed-light-source;suspension-wires;functional-dependency;part-of;part of the node									
+squeezed-light-source;linear-accelerometers;functional-dependency;part-of;part of the node	
+squeezed-light-source;inertial-rotation;functional-dependency;part-of;part of the node		
+squeezed-light-source;optical-substrate;functional-dependency;part-of;part of the node
+squeezed-light-source;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LFC1-IM1_A;filter-0;functional-dependency;part-of;part of the node	
+LFC1-IM1_A;standard-filter;functional-dependency;part-of;part of the node					
+LFC1-IM1_A;blade-springs;functional-dependency;part-of;part of the node	
+LFC1-IM1_A;suspension-wires;functional-dependency;part-of;part of the node					
+LFC1-IM1_A;active-vibration-isolator;functional-dependency;part-of;part of the node
+LFC1-IM1_A;inverted-pendulum;functional-dependency;part-of;part of the node			
+LFC1-IM1_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LFC1-IM1_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LFC1-IM1_A;optical-substrate;functional-dependency;part-of;part of the node	
+LFC1-IM1_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LFC1-IM1_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LFC1-IM1_A;Mu-metal-sheath;functional-dependency;part-of;part of the node												
+
+LFC2-IM1_A;filter-0;functional-dependency;part-of;part of the node	
+LFC2-IM1_A;standard-filter;functional-dependency;part-of;part of the node					
+LFC2-IM1_A;blade-springs;functional-dependency;part-of;part of the node	
+LFC2-IM1_A;suspension-wires;functional-dependency;part-of;part of the node					
+LFC2-IM1_A;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LFC2-IM1_A;inverted-pendulum;functional-dependency;part-of;part of the node			
+LFC2-IM1_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LFC2-IM1_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LFC2-IM1_A;optical-substrate;functional-dependency;part-of;part of the node	
+LFC2-IM1_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LFC2-IM1_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LFC2-IM1_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LFC1-IM2_A;filter-0;functional-dependency;part-of;part of the node	
+LFC1-IM2_A;standard-filter;functional-dependency;part-of;part of the node					
+LFC1-IM2_A;blade-springs;functional-dependency;part-of;part of the node	
+LFC1-IM2_A;suspension-wires;functional-dependency;part-of;part of the node					
+LFC1-IM2_A;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LFC1-IM2_A;inverted-pendulum;functional-dependency;part-of;part of the node			
+LFC1-IM2_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LFC1-IM2_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LFC1-IM2_A;optical-substrate;functional-dependency;part-of;part of the node	
+LFC1-IM2_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LFC1-IM2_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LFC1-IM2_A;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+LFC2-IM2_A;filter-0;functional-dependency;part-of;part of the node	
+LFC2-IM2_A;standard-filter;functional-dependency;part-of;part of the node					
+LFC2-IM2_A;blade-springs;functional-dependency;part-of;part of the node	
+LFC2-IM2_A;suspension-wires;functional-dependency;part-of;part of the node					
+LFC2-IM2_A;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LFC2-IM2_A;inverted-pendulum;functional-dependency;part-of;part of the node			
+LFC2-IM2_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LFC2-IM2_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LFC2-IM2_A;optical-substrate;functional-dependency;part-of;part of the node	
+LFC2-IM2_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LFC2-IM2_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LFC2-IM2_A;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+LFC1-EM_A;filter-0;functional-dependency;part-of;part of the node	
+LFC1-EM_A;standard-filter;functional-dependency;part-of;part of the node					
+LFC1-EM_A;blade-springs;functional-dependency;part-of;part of the node	
+LFC1-EM_A;suspension-wires;functional-dependency;part-of;part of the node					
+LFC1-EM_A;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LFC1-EM_A;inverted-pendulum;functional-dependency;part-of;part of the node			
+LFC1-EM_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LFC1-EM_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LFC1-EM_A;optical-substrate;functional-dependency;part-of;part of the node	
+LFC1-EM_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LFC1-EM_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node
+LFC1-EM_A;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+LFC2-EM_A;filter-0;functional-dependency;part-of;part of the node	
+LFC2-EM_A;standard-filter;functional-dependency;part-of;part of the node					
+LFC2-EM_A;blade-springs;functional-dependency;part-of;part of the node	
+LFC2-EM_A;suspension-wires;functional-dependency;part-of;part of the node					
+LFC2-EM_A;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LFC2-EM_A;inverted-pendulum;functional-dependency;part-of;part of the node			
+LFC2-EM_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LFC2-EM_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LFC2-EM_A;optical-substrate;functional-dependency;part-of;part of the node	
+LFC2-EM_A;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node			
+LFC2-EM_A;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node		
+LFC2-EM_A;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+
+LSQ-EM1_A;filter-0;functional-dependency;part-of;part of the node	
+LSQ-EM1_A;standard-filter;functional-dependency;part-of;part of the node					
+LSQ-EM1_A;blade-springs;functional-dependency;part-of;part of the node	
+LSQ-EM1_A;suspension-wires;functional-dependency;part-of;part of the node									
+LSQ-EM1_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LSQ-EM1_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LSQ-EM1_A;optical-substrate;functional-dependency;part-of;part of the node	
+LSQ-EM1_A;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+LSQ-EM2_A;standard-filter;functional-dependency;part-of;part of the node					
+LSQ-EM2_A;blade-springs;functional-dependency;part-of;part of the node	
+LSQ-EM2_A;suspension-wires;functional-dependency;part-of;part of the node									
+LSQ-EM2_A;linear-accelerometers;functional-dependency;part-of;part of the node	
+LSQ-EM2_A;inertial-rotation;functional-dependency;part-of;part of the node		
+LSQ-EM2_A;optical-substrate;functional-dependency;part-of;part of the node	
+LSQ-EM2_A;Mu-metal-sheath;functional-dependency;part-of;part of the node												
+
+LCal1_AB;standard-filter;functional-dependency;part-of;part of the node					
+LCal1_AB;blade-springs;functional-dependency;part-of;part of the node	
+LCal1_AB;suspension-wires;functional-dependency;part-of;part of the node									
+LCal1_AB;linear-accelerometers;functional-dependency;part-of;part of the node	
+LCal1_AB;inertial-rotation;functional-dependency;part-of;part of the node		
+LCal1_AB;optical-substrate;functional-dependency;part-of;part of the node
+LCal1_AB;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+
+LCal2_AB;filter-0;functional-dependency;part-of;part of the node	
+LCal2_AB;standard-filter;functional-dependency;part-of;part of the node					
+LCal2_AB;blade-springs;functional-dependency;part-of;part of the node	
+LCal2_AB;suspension-wires;functional-dependency;part-of;part of the node									
+LCal2_AB;linear-accelerometers;functional-dependency;part-of;part of the node	
+LCal2_AB;inertial-rotation;functional-dependency;part-of;part of the node		
+LCal2_AB;optical-substrate;functional-dependency;part-of;part of the node	
+LCal2_AB;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+
+LETM_AB;filter-0;functional-dependency;part-of;part of the node	
+LETM_AB;standard-filter;functional-dependency;part-of;part of the node		
+LETM_AB;inductive-s-a;functional-dependency;part-of;part of the node		
+LETM_AB;low-noise-position-s-a;functional-dependency;part-of;part of the node		
+LETM_AB;suspension-wires;functional-dependency;part-of;part of the node		
+LETM_AB;TM-heads-anchors;functional-dependency;part-of;part of the node	
+LETM_AB;TM-fibers;functional-dependency;part-of;part of the node	
+LETM_AB;TM-interfaces-ears;functional-dependency;part-of;part of the node	
+LETM_AB;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LETM_AB;inverted-pendulum;functional-dependency;part-of;part of the node	
+LETM_AB;inductive;functional-dependency;part-of;part of the node	
+LETM_AB;low-noise-position;functional-dependency;part-of;part of the node	
+LETM_AB;linear-accelerometers;functional-dependency;part-of;part of the node	
+LETM_AB;inertial-rotation;functional-dependency;part-of;part of the node	
+LETM_AB;piezo-per-base-ring;functional-dependency;part-of;part of the node	
+LETM_AB;optical-substrate;functional-dependency;part-of;part of the node	
+LETM_AB;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node		
+LETM_AB;soft-heat-links;functional-dependency;part-of;part of the node	
+LETM_AB;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LETM_AB;payload-on-board-soft-thermal-links;functional-dependency;part-of;part of the node	
+LETM_AB;cryocompatible-inductive-actuators;functional-dependency;part-of;part of the node	
+LETM_AB;scattered-light-ITM-payload-baffles;functional-dependency;part-of;part of the node	
+LETM_AB;penultimate-mass-cryogenic-suspension;functional-dependency;part-of;part of the node	
+LETM_AB;cryocompatible-DC-tilt-motors;functional-dependency;part-of;part of the node				
+LETM_AB;cryogenic-payload-safety-structure;functional-dependency;part-of;part of the node					
+LETM_AB;rough-pumping-system;functional-dependency;part-of;part of the node	
+LETM_AB;intermediate-pumping-system;functional-dependency;part-of;part of the node	
+LETM_AB;continuous-pumping-system;functional-dependency;part-of;part of the node	
+LETM_AB;cryostat-vessel;functional-dependency;part-of;part of the node	
+LETM_AB;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+LETM_AB;cryosupply;functional-dependency;part-of;part of the node	
+LETM_AB;thermal-shields;functional-dependency;part-of;part of the node		
+LETM_AB;dust-monitoring-system;functional-dependency;part-of;part of the node	
+LETM_AB;temperature-monitoring-system;functional-dependency;part-of;part of the node	
+LETM_AB;vibration-monitoring-system;functional-dependency;part-of;part of the node						
+
+LCal1_AC;filter-0;functional-dependency;part-of;part of the node	
+LCal1_AC;standard-filter;functional-dependency;part-of;part of the node					
+LCal1_AC;blade-springs;functional-dependency;part-of;part of the node	
+LCal1_AC;suspension-wires;functional-dependency;part-of;part of the node									
+LCal1_AC;linear-accelerometers;functional-dependency;part-of;part of the node	
+LCal1_AC;inertial-rotation;functional-dependency;part-of;part of the node		
+LCal1_AC;optical-substrate;functional-dependency;part-of;part of the node
+LCal1_AC;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+LCal2_AC;filter-0;functional-dependency;part-of;part of the node	
+LCal2_AC;standard-filter;functional-dependency;part-of;part of the node					
+LCal2_AC;blade-springs;functional-dependency;part-of;part of the node	
+LCal2_AC;suspension-wires;functional-dependency;part-of;part of the node									
+LCal2_AC;linear-accelerometers;functional-dependency;part-of;part of the node	
+LCal2_AC;inertial-rotation;functional-dependency;part-of;part of the node		
+LCal2_AC;optical-substrate;functional-dependency;part-of;part of the node	
+LCal2_AC;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+
+LETM_AC;filter-0;functional-dependency;part-of;part of the node	
+LETM_AC;standard-filter;functional-dependency;part-of;part of the node		
+LETM_AC;inductive-s-a;functional-dependency;part-of;part of the node		
+LETM_AC;low-noise-position-s-a;functional-dependency;part-of;part of the node		
+LETM_AC;suspension-wires;functional-dependency;part-of;part of the node		
+LETM_AC;TM-heads-anchors;functional-dependency;part-of;part of the node	
+LETM_AC;TM-fibers;functional-dependency;part-of;part of the node	
+LETM_AC;TM-interfaces-ears;functional-dependency;part-of;part of the node	
+LETM_AC;active-vibration-isolator;functional-dependency;part-of;part of the node	
+LETM_AC;inverted-pendulum;functional-dependency;part-of;part of the node	
+LETM_AC;inductive;functional-dependency;part-of;part of the node	 
+LETM_AC;low-noise-position;functional-dependency;part-of;part of the node           	
+LETM_AC;linear-accelerometers;functional-dependency;part-of;part of the node	
+LETM_AC;inertial-rotation;functional-dependency;part-of;part of the node	
+LETM_AC;piezo-per-base-ring;functional-dependency;part-of;part of the node	
+LETM_AC;optical-substrate;functional-dependency;part-of;part of the node	
+LETM_AC;platform-vertical-anti-spring-system;functional-dependency;part-of;part of the node		
+LETM_AC;soft-heat-links;functional-dependency;part-of;part of the node	
+LETM_AC;ancillary-vibration-attenuator;functional-dependency;part-of;part of the node	
+LETM_AC;payload-on-board-soft-thermal-links;functional-dependency;part-of;part of the node	
+LETM_AC;cryocompatible-inductive-actuators;functional-dependency;part-of;part of the node	
+LETM_AC;scattered-light-ITM-payload-baffles;functional-dependency;part-of;part of the node	
+LETM_AC;penultimate-mass-cryogenic-suspension;functional-dependency;part-of;part of the node	
+LETM_AC;cryocompatible-DC-tilt-motors;functional-dependency;part-of;part of the node				
+LETM_AC;cryogenic-payload-safety-structure;functional-dependency;part-of;part of the node					
+LETM_AC;rough-pumping-system;functional-dependency;part-of;part of the node	
+LETM_AC;intermediate-pumping-system;functional-dependency;part-of;part of the node	
+LETM_AC;continuous-pumping-system;functional-dependency;part-of;part of the node	
+LETM_AC;cryostat-vessel;functional-dependency;part-of;part of the node	
+LETM_AC;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+LETM_AC;cryosupply;functional-dependency;part-of;part of the node	
+LETM_AC;thermal-shields;functional-dependency;part-of;part of the node		
+LETM_AC;dust-monitoring-system;functional-dependency;part-of;part of the node	
+LETM_AC;temperature-monitoring-system;functional-dependency;part-of;part of the node	
+LETM_AC;vibration-monitoring-system;functional-dependency;part-of;part of the node	
+
+cooling-LETM_AB-AS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-AS;standard-filter;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-AS;payload-interface-filter;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-AS;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+cooling-LETM_AB-AS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node				
+cooling-LETM_AB-AS;cryosupply-arm;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-AS;thermal-shields-arm;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-AS;cryopanels-arm;functional-dependency;part-of;part of the node	
+
+cooling-LETM_AB-TS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-TS;standard-filter;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-TS;payload-interface-filter;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-TS;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+cooling-LETM_AB-TS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node							
+cooling-LETM_AB-TS;cryosupply-tower;functional-dependency;part-of;part of the node	
+cooling-LETM_AB-TS;thermal-shields-tower;functional-dependency;part-of;part of the node
+cooling-LETM_AB-TS;cryopanels-tower;functional-dependency;part-of;part of the node
+
+cooling-LETM_AC-AS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-AS;standard-filter;functional-dependency;part-of;part of the node
+cooling-LETM_AC-AS;payload-interface-filter;functional-dependency;part-of;part of the node
+cooling-LETM_AC-AS;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+cooling-LETM_AC-AS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node				
+cooling-LETM_AC-AS;cryosupply-arm;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-AS;thermal-shields-arm;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-AS;cryopanels-arm;functional-dependency;part-of;part of the node	
+
+cooling-LETM_AC-TS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-TS;standard-filter;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-TS;payload-interface-filter;functional-dependency;part-of;part of the node
+cooling-LETM_AC-TS;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+cooling-LETM_AC-TS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node							
+cooling-LETM_AC-TS;cryosupply-tower;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-TS;thermal-shields-tower;functional-dependency;part-of;part of the node	
+cooling-LETM_AC-TS;cryopanels-tower;functional-dependency;part-of;part of the node
+
+cooling-LITM_AC-AS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-AS;standard-filter;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-AS;payload-interface-filter;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-AS;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+cooling-LITM_AC-AS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node				
+cooling-LITM_AC-AS;cryosupply-arm;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-AS;thermal-shields-arm;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-AS;cryopanels-arm;functional-dependency;part-of;part of the node	
+
+cooling-LITM_AC-TS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-TS;standard-filter;functional-dependency;part-of;part of the node					
+cooling-LITM_AC-TS;blade-springs;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-TS;suspension-wires;functional-dependency;part-of;part of the node									
+cooling-LITM_AC-TS;linear-accelerometers;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-TS;inertial-rotation;functional-dependency;part-of;part of the node		
+cooling-LITM_AC-TS;optical-substrate;functional-dependency;part-of;part of the node	
+cooling-LITM_AC-TS;Mu-metal-sheath;functional-dependency;part-of;part of the node		
+
+cooling-LITM_AB-AS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-AS;standard-filter;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-AS;payload-interface-filter;functional-dependency;part-of;part of the node
+cooling-LITM_AB-AS;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+cooling-LITM_AB-AS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node				
+cooling-LITM_AB-AS;cryosupply-arm;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-AS;thermal-shields-arm;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-AS;cryopanels-arm;functional-dependency;part-of;part of the node	
+
+cooling-LITM_AB-TS;filter-0;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-TS;standard-filter;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-TS;payload-interface-filter;functional-dependency;part-of;part of the node
+cooling-LITM_AB-TS;Mu-metal-sheath;functional-dependency;part-of;part of the node			
+cooling-LITM_AB-TS;vessel-stray-light-baffle-system;functional-dependency;part-of;part of the node							
+cooling-LITM_AB-TS;cryosupply-tower;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-TS;thermal-shields-tower;functional-dependency;part-of;part of the node	
+cooling-LITM_AB-TS;cryopanels-tower;functional-dependency;part-of;part of the node
+
+cooling-laser-measure;filter-0;functional-dependency;part-of;part of the node	
+cooling-laser-measure;standard-filter;functional-dependency;part-of;part of the node	
+cooling-laser-measure;payload-interface-filter;functional-dependency;part-of;part of the node
+cooling-laser-measure;Mu-metal-sheath;functional-dependency;part-of;part of the node
+
+cooling-laser-input;filter-0;functional-dependency;part-of;part of the node	
+cooling-laser-input;standard-filter;functional-dependency;part-of;part of the node	
+cooling-laser-input;payload-interface-filter;functional-dependency;part-of;part of the node
+cooling-laser-input;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+PSL;filter-0;functional-dependency;part-of;part of the node	
+PSL;standard-filter;functional-dependency;part-of;part of the node	
+PSL;payload-interface-filter;functional-dependency;part-of;part of the node
+PSL;Mu-metal-sheath;functional-dependency;part-of;part of the node	
+
+
+
