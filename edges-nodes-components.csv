@@ -563,5 +563,56 @@ PSL;standard-filter;functional-dependency;part-of;part of the node
 PSL;payload-interface-filter;functional-dependency;part-of;part of the node
 PSL;Mu-metal-sheath;functional-dependency;part-of;part of the node	
 
-
+filter-0;Suspension-chain;functional-dependency;works-on;0
+standard-filter;Suspension-chain;functional-dependency;works-on;0
+payload-interface-filter;Suspension-chain;functional-dependency;works-on;0
+inductive-s-a;LF-control-noise;functional-dependency;works-on;0
+fishing-rods;Suspension-chain;functional-dependency;works-on;0
+low-noise-position-s-a;LF-control-noise;functional-dependency;works-on;0
+blade-springs;Suspension-chain;functional-dependency;works-on;0
+suspension-wires;Suspension-chain;functional-dependency;works-on;0
+TM-heads-anchors;Test-mass-suspension;functional-dependency;works-on;0
+TM-fibers;Test-mass-suspension;functional-dependency;works-on;0
+TM-interfaces-ears;Test-mass-suspension;functional-dependency;works-on;0
+active-vibration-isolator;Seismic-isolation-platform;functional-dependency;works-on;0
+inverted-pendulum;Seismic-isolation-platform;functional-dependency;works-on;0
+inductive;LF-control-noise;functional-dependency;works-on;0
+low-noise-position;LF-control-noise;functional-dependency;works-on;0
+linear-accelerometers;LF-control-noise;functional-dependency;works-on;0
+inertial-rotation;LF-control-noise;functional-dependency;works-on;0
+optical-substrate;Core-optics-LF;functional-dependency;works-on;0
+platform-vertical-anti-spring-system;Seismic-isolation-platform;functional-dependency;works-on;0
+on-board-soft-cooling-links;Cryostats-and-cryopumps;functional-dependency;works-on;0
+soft-heat-links;Cryostats-and-cryopumps;functional-dependency;works-on;0
+ancillary-vibration-attenuator;Seismic-isolation-platform;functional-dependency;works-on;0
+payload-on-board-soft-thermal-links;Cryostats-and-cryopumps;functional-dependency;works-on;0
+cryocompatible-inductive-actuators;LF-control-noise;functional-dependency;works-on;0
+scattered-light-ITM-payload-baffles;Scattered-light;functional-dependency;works-on;0
+penultimate-mass-cryogenic-suspension;Suspension-chain;functional-dependency;works-on;0
+cryocompatible-DC-tilt-motors;Core-optics-LF;functional-dependency;works-on;0
+cage-to-platform-suspension-system;Suspension-chain;functional-dependency;works-on;0
+actuation-cage;Suspension-chain;functional-dependency;works-on;0
+inter-platform-optical-system;Inter-platform-motion;functional-dependency;works-on;0
+cryogenic-payload-safety-structure;Cryostats-and-cryopumps;functional-dependency;works-on;0
+wavefront-sensing-control-system;Optical-layout-sensing-and-control-scheme-LF;functional-dependency;works-on;0
+data-acquisition;Optical-layout-sensing-and-control-scheme-LF;functional-dependency;works-on;0
+vessel-rings;Tower-vaccuum;functional-dependency;works-on;0
+vessel-cupola;Tower-vaccuum;functional-dependency;works-on;0
+rough-pumping-system;Tower-vaccuum;functional-dependency;works-on;0
+intermediate-pumping-system;Tower-vaccuum;functional-dependency;works-on;0
+continuous-pumping-system;Tower-vaccuum;functional-dependency;works-on;0
+cryostat-vessel;Cryostats-and-cryopumps;functional-dependency;works-on;0
+Mu-metal-sheath;Magnetic-noise;functional-dependency;works-on;0
+cryosupply;Cryostats-and-cryopumps;functional-dependency;works-on;0
+thermal-shields;Cryostats-and-cryopumps;functional-dependency;works-on;0
+vessel-stray-light-baffle-system;Scattered-light;functional-dependency;works-on;0
+dust-monitoring-system;Tower-vaccuum;functional-dependency;works-on;0
+temperature-monitoring-system;Cryostats-and-cryopumps;functional-dependency;works-on;0
+vibration-monitoring-system;LF-control-noise;functional-dependency;works-on;0
+cryosupply-arm;Cryostats-and-cryopumps;functional-dependency;works-on;0
+thermal-shields-arm;Cryostats-and-cryopumps;functional-dependency;works-on;0
+cryopanels-arm;Cryostats-and-cryopumps;functional-dependency;works-on;0
+cryosupply-tower;Cryostats-and-cryopumps;functional-dependency;works-on;0
+thermal-shields-tower;Cryostats-and-cryopumps;functional-dependency;works-on;0
+cryopanels-tower;Cryostats-and-cryopumps;functional-dependency;works-on;0
 
