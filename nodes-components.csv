@@ -63,14 +63,12 @@ filter-chain;component;filter-0,standard-filter,payload-interface-filter,s-a,bla
 filter-0;component
 standard-filter;component
 payload-interface-filter;component
-s-a;component;inductive-s-a,fishing-rods,low-noise-position-s-a
+s-a;component;inductive-s-a,low-noise-position-s-a
 inductive-s-a;component
-fishing-rods;component
 low-noise-position-s-a;component
-blade-springs-suspension-wires;component;blade-springs,suspension-wires,tooling
+blade-springs-suspension-wires;component;blade-springs,suspension-wires
 blade-springs;component
 suspension-wires;component
-tooling;component
 
 
 payload-suspension;component;TM-heads-anchors,TM-fibers,TM-interfaces-ears
@@ -89,17 +87,14 @@ linear-accelerometers;component
 inertial-rotation;component
 piezo-per-base-ring;component
 
-optical-payload;component;optical-substrate,inter-platform-optical-system,cryogenic-payload-safety-structure,wavefront-sensing-control-system,data-acquisition,payload-cryogenic-subsystem
+optical-payload;component;optical-substrate,inter-platform-optical-system,cryogenic-payload-safety-structure,payload-cryogenic-subsystem
 optical-substrate;component
 inter-platform-optical-system;component
 cryogenic-payload-safety-structure;component
-wavefront-sensing-control-system;component
-data-acquisition;component
-payload-cryogenic-subsystem;component;top-platform,heat-sink-connection-structure,on-board-components,penultimate-mass
+payload-cryogenic-subsystem;component;heat-sink-connection-structure,on-board-components,penultimate-mass,platform-vertical-anti-spring-system
 
-top-platform;component;platform-vertical-anti-spring-system,on-board-soft-cooling-links
 platform-vertical-anti-spring-system;component
-on-board-soft-cooling-links;component
+
 
 heat-sink-connection-structure;component;soft-heat-links,ancillary-vibration-attenuator
 soft-heat-links;component
@@ -110,15 +105,11 @@ payload-on-board-soft-thermal-links;component
 cryocompatible-inductive-actuators;component
 scattered-light-ITM-payload-baffles;component
 
-penultimate-mass;component;penultimate-mass-cryogenic-suspension,cryocompatible-DC-tilt-motors,cage-to-platform-suspension-system,actuation-cage
+penultimate-mass;component;penultimate-mass-cryogenic-suspension,cryocompatible-DC-tilt-motors
 penultimate-mass-cryogenic-suspension;component
 cryocompatible-DC-tilt-motors;component
-cage-to-platform-suspension-system;component
-actuation-cage;component
 
-tower-vessel;component;vessel-rings,vessel-cupola,tower-pump-system,cryogenic-tower-base,tower-condition-system,armside-cryopump,tower-side-cryopump
-vessel-rings;component
-vessel-cupola;component
+tower-vessel;component;tower-pump-system,cryogenic-tower-base,tower-condition-system,armside-cryopump,tower-side-cryopump
 
 tower-pump-system;component;rough-pumping-system,intermediate-pumping-system,continuous-pumping-system
 rough-pumping-system;component
@@ -155,16 +146,9 @@ Core-optics-LF;team
 Tower-vaccuum;team
 Magnetic-noise;team
 Inter-platform-motion;team
-Observatory-design-and-noise-budged
-Optical-layout-sensing-and-control-scheme-LF;team
-Wavefront-sensing-and-control;team
 Scattered-light;team
-Cold-payload-design;team
 Test-mass-suspension;team
 Seismic-isolation-platform;team
-
-
-latform
 
 
 
